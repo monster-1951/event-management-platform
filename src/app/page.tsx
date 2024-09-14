@@ -5,7 +5,6 @@ import EventCreate from "@/components/custom/EventCreate";
 import Navbar from "@/components/custom/Navbar";
 import User from "@/DataBase/models/User.model";
 import { getSession } from "@/lib/getSession";
-import { Event, USer } from "@/types";
 
 export default async function Home() {
   const session = await getSession();
