@@ -35,6 +35,7 @@ const AllEvents =async () => {
             venue={event.venue}
             noOfInterests={event.noOfInterests}
             _id={event._id}
+            key={event._id}
           />
         );
       })}
